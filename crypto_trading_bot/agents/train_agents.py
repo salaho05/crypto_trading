@@ -1,10 +1,13 @@
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)) + '/..')
+
 from stable_baselines3 import DQN, PPO, A2C
 from stable_baselines3.common.vec_env import DummyVecEnv
 import pandas as pd
 import numpy as np
 from env.crypto_trading_env import CryptoTradingEnv
 import time
-import os
 from multiprocessing import Process, Queue
 import warnings
 
