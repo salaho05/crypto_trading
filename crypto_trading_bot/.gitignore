@@ -81,8 +81,11 @@ Thumbs.db
 data/*.csv
 data/*.pkl
 models/saved_models/
+agents/models/
 backtesting/results/
+optimization/models/
 optimization/trials/
 *.pkl
 *.h5
 *.pt
+*.zip
