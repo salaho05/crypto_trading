@@ -79,11 +79,11 @@ Thumbs.db
 
 # Project specific
 *.log
-data/
+data/*.csv
+data/*.pkl
 models/saved_models/
 backtesting/results/
 optimization/trials/
-*.csv
 *.pkl
 *.h5
 *.pt
